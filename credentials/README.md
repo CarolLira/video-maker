@@ -1,0 +1,26 @@
+# Credentials format
+
+## Algorithmia
+
+File: `algorithmia.json`
+
+```
+{
+    "apiKey": "simlAjfMnRUym5bhq8sXffrvrCm1"
+}
+```
+
+## Watson Natural Language Understanding
+
+File: `watson-nlu.json`
+
+```
+{
+  "apikey": "2bVKvPj2gjW4ROIj_wa2ZgE5eKeINggFjq56WiLNNrkQ",
+  "iam_apikey_description": "Auto-generated for key bee76b4f-4ba8-4bcf-bc8a-00618031cb23",
+  "iam_apikey_name": "Auto-generated service credentials",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/2324ace4ca174169ab22161b1e727237::serviceid:ServiceId-1532d0f0-f731-4965-aa87-3a10175aa668",
+  "url": "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/18e786b2-43f4-41f5-844a-75380ce1d6a4"
+}
+```
