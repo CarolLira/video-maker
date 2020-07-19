@@ -6,6 +6,8 @@ const state = require('./state.js');
 const fs = require('fs');
 
 async function robot() {
+    console.log('> [youtube-robot] Starting...');
+    
     const content = state.load();
 
     await authenticateWithOAuth();

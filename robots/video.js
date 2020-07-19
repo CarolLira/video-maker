@@ -5,6 +5,8 @@ const path = require('path');
 const rootPath = path.resolve(__dirname, '..');
 
 async function robot() {
+    console.log('> [video-robot] Starting...');
+    
     const content = state.load();
 
     await convertAllImages(content);
@@ -52,7 +54,7 @@ async function robot() {
                     if (error) {
                         return reject(error);
                     }
-                    console.log(`> Image converted: ${inputFile}`);
+                    console.log(`> [video-robot] Image converted: ${outputFile}`);
                     resolve();
                 });
         });
